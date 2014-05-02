@@ -1,0 +1,1 @@
+$(document).ready(function(){function a(a){function b(){var a=level.toString(16);c.style.backgroundColor="#FFFF"+a+a;15>level&&(level+=1,setTimeout(b,100))}var c=document.getElementById(a);level=1;setTimeout(b,100)}a("fade-text");a("fade-h1")});
